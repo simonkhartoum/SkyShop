@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './App.css';
 import sam from './sam.png';
@@ -5,8 +6,9 @@ import apl from './apl.png';
 import hp from './hp.png';
 import dell from './dell.png';
 import oraimo from './oraimo.png';
-import Footer from './components/Footer';
-// import Navbar from './components/Navbar';
+import Footer from './components/Footer'; 
+import Navbar from './components/Navbar';
+
 
 const ImageStyle= { 
   padding: "30px",
@@ -17,12 +19,11 @@ const MageStyle= {
   width: "100px",
 }
 
- 
 function App() {
   return (
    <>
     <div className="App">
-       {/* <Navbar/>  */}
+       <Navbar/> 
       <header className="App-header">"
         <img src={hp} alt="shop" style={MageStyle}/>
         <img src={apl} alt="shop" style={MageStyle}/>
@@ -82,4 +83,3 @@ function App() {
 }
 
 export default App;
-
