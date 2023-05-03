@@ -5,8 +5,8 @@ import apl from './apl.png';
 import hp from './hp.png';
 import dell from './dell.png';
 import oraimo from './oraimo.png';
-// import Footer from './components/Footer';
-// import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 const ImageStyle= { 
   padding: "30px",
@@ -16,19 +16,13 @@ const MageStyle= {
   padding: "30px",
   width: "100px",
 }
-// const Stylep= {
-//   fontSize: 30 ,
-//   marginRight:"150px",
-//   marginLeft: "150px",
-//   backgroundColor: 'white',
-//   fontFamily: "serif"
-// }
+
  
 function App() {
   return (
    <>
     <div className="App">
-       {/* <Navbar/> */}
+       <Navbar/> 
       <header className="App-header">"
         <img src={hp} alt="shop" style={MageStyle}/>
         <img src={apl} alt="shop" style={MageStyle}/>
@@ -82,6 +76,7 @@ function App() {
               </div>
           </div>
        </div>  
+       <Footer/>
     </>
   );
 }
