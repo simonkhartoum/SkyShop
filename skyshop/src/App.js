@@ -6,7 +6,7 @@ import hp from './hp.png';
 import dell from './dell.png';
 import oraimo from './oraimo.png';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 
 const ImageStyle= { 
   padding: "30px",
@@ -22,7 +22,7 @@ function App() {
   return (
    <>
     <div className="App">
-       <Navbar/> 
+       {/* <Navbar/>  */}
       <header className="App-header">"
         <img src={hp} alt="shop" style={MageStyle}/>
         <img src={apl} alt="shop" style={MageStyle}/>
