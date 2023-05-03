@@ -17,7 +17,7 @@ function Navbar() {
     <div className={navbarClassName}>
       <div className="leftSide">
         <div className="links">
-          <a href="skyshop">SkyShop</a>
+          <a href="skyshop" style={{color:"rgb(13, 226, 155)"}}>SkyShop</a>
           <a href="phones">Phones</a>
           <a href="laptops">Laptops</a>
           <a href="accessories">Accessories</a>
