@@ -1,0 +1,139 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "image":"https://gadgetsleo.com/storage/2022/02/Iphone-14-Pro-128-GB-Space-Black.jpg",
+            "brand": "iPhone",
+            "name": "iPhone i4 pro",
+            "price": "159999",
+            "details": "128GB ROM, 6GB RAM, 3200mAh"
+            
+        },
+        {
+            "id": 2,
+            "image":"https://gadgetsleo.com/storage/2022/03/Samsung-Galaxy-A33-5G-Blue.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy A33",
+            "price": "37000",
+            "details":"128GB ROM, 8GB RAM, 5000mAh"
+
+        },
+        {
+            "id": 3,
+            "image": "https://gadgetsleo.com/storage/2022/11/Redmi-Note-12-Pro-Plus-Black.jpg",
+            "brand": "Redmi",
+            "name": "Redmi Note 12 pro plus",
+            "price": "46800",
+            "details": "256GB ROM, 8GB RAM "
+
+        },
+        {
+            "id": 4,
+            "image": "https://gadgetsleo.com/storage/2022/02/Samsung-Galaxy-M-33-Green.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy M33",
+            "price": "27999",
+            "details": "128GB ROM, 6GB RAM, 6000mAh"
+
+        },
+        {
+            "id": 5,
+            "image": "https://gadgetsleo.com/storage/2022/09/Iphone-14-256GB-Midnight.jpg",
+            "brand": "iPhone",
+            "name": "iPhone i4 ",
+            "price": "133000",
+            "details": "256GB ROM, 6GB RAM, 3200mAh"
+
+        },
+        {
+            "id": 6,
+            "image": "https://gadgetsleo.com/storage/2022/03/Samsung-Galaxy-A53-5G-Black-Color.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy A53",
+            "price": "50200",
+            "details":"256GB ROM, 8GB RAM, 5000mAh"
+
+        },
+        {
+            "id": 7,
+            "image": "https://gadgetsleo.com/storage/2022/09/Oppo-A77s-Ocean-Blue.jpg",
+            "brand": "Oppo",
+            "name": "Oppo A77s",
+            "price": "28199",
+            "details": "128GB ROM, 8GB RAM, 5000mAh"
+
+        },
+        {
+            "id": 8,
+            "image": "https://gadgetsleo.com/storage/2022/03/Samsung-Galaxy-A23-Black-4GB-RAM-128GB.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy A23",
+            "price": "27999",
+            "details": "128GB ROM, 4GB RAM, 5000mAh"
+
+        },
+        {
+            "id": 9,
+            "image": "https://gadgetsleo.com/storage/2023/02/Oppo-Reno-8T-1.jpg",
+            "brand": "Oppo",
+            "name": "Oppo Reno 8T",
+            "price": "37800",
+            "details": "256GB ROM, 8GB RAM, 5000mAh"
+
+        },
+        {
+            "id": 10,
+            "image": "https://gadgetsleo.com/storage/2022/06/Samsung-Galaxy-S23-Plus-1.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy S23",
+            "price": "129000",
+            "details": "256GB ROM, 8GB RAM, 4700mAh"
+
+        },
+        {
+            "id": 11,
+            "image": "https://gadgetsleo.com/storage/2023/03/Samsung-Galaxy-A14-1.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy A14",
+            "price": "21400",
+            "details": "64GB ROM, 4GB RAM, 5000mAh"
+
+        },
+        {
+            "id": 12,
+            "image": "https://gadgetsleo.com/storage/2022/03/Samsung-Galaxy-F23-5G-Aqua-Blue.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy F23",
+            "price": "25499",
+            "details": "128GB ROM, 6GB RAM, 5000mAh"
+
+        },
+        {
+            "id": 13,
+            "image": "https://gadgetsleo.com/storage/2021/03/Samsung-Galaxy-A32.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy A04s",
+            "price": "20800",
+            "details": "128GB ROM, 4GB RAM, 5000mAh"
+            
+        },
+        {
+            "id": 14,
+            "image": "https://gadgetsleo.com/storage/2022/09/OnePlus-Nord-N20-SE-Blue-Oasis.jpg",
+            "brand": "OnePlus",
+            "name": "OnePlus Nord N20",
+            "price": "20699",
+            "details": "64GB ROM, 4GB RAM, 5000mAh"
+
+        },
+        {
+            "id": 15,
+            "image": "https://gadgetsleo.com/storage/2022/02/Samsung-Galaxy-M13-1.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy M13",
+            "price": "23399",
+            "details": "128GB ROM, 6GB RAM, 6000mAh"
+            
+        }
+    ]
+}
