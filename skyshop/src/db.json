@@ -6,7 +6,7 @@
             "brand": "Lasso",
             "name" : "Universal Crossbody Necklace Patch",
             "price": "500",
-            "details": "Crossbody Necklace Patch Tether Cell Mobile Phone Case Lanyard"
+            "details": "Crossbody Necklace Patch Tether Cell Mobile Phone Case Lanyard",
             "category": "accessories"
         },
         {
@@ -15,7 +15,7 @@
             "brand": "Variety",
             "name" : "Phone Cover",
             "price": "800",
-            "details": "Phone Cover"
+            "details": "Phone Cover",
             "category": "accessories"
         },
         {
@@ -24,7 +24,7 @@
             "brand": "Araimo",
             "name" : "USB Cable type A-C",
             "price": "1000",
-            "details": "Quality Authentic USB cables from micro-USB to USB-C"
+            "details": "Quality Authentic USB cables from micro-USB to USB-C",
             "category": "accessories"
         },
         {
@@ -33,7 +33,7 @@
             "brand": "Tchup",
             "name" : "Bluetooth Portable Speaker",
             "price": "500",
-            "details": "Portable Speaker"
+            "details": "Portable Speaker",
             "category": "accessories"
         },
         {
@@ -42,7 +42,7 @@
             "brand": "UGREEN",
             "name" : "Universal Adapter",
             "price": "5000",
-            "details": "HDMI adapter"
+            "details": "HDMI adapter",
             "category": "accessories"
         },
         {
@@ -51,7 +51,7 @@
             "brand": "Amsung",
             "name" : "Power Bank",
             "price": "1345",
-            "details": "8-hour battery charge"
+            "details": "8-hour battery charge",
             "category": "accessories"
         },
         {
@@ -60,7 +60,7 @@
             "brand": "BlackBerry",
             "name" : "EarPhones",
             "price": "400",
-            "details": "Quality Sound Earphones"
+            "details": "Quality Sound Earphones",
             "category": "accessories"
         },
         {
@@ -69,7 +69,7 @@
             "brand": "Sony",
             "name" : "Sony MDR-ZX110AP ",
             "price": "6500",
-            "details": "Sony MDR-ZX110AP On-Ear Headphones with Microphone (Black)"
+            "details": "Sony MDR-ZX110AP On-Ear Headphones with Microphone (Black)",
             "category": "accessories"
         },
         {
@@ -78,7 +78,7 @@
             "brand": "Apple",
             "name" : "Apple Amazfit",
             "price": "3500",
-            "details": "Amazfit Bip U Smart Watch (Black)"
+            "details": "Amazfit Bip U Smart Watch (Black)",
             "category": "accessories"
         },
         {
@@ -87,7 +87,7 @@
             "brand": "Xiaomi",
             "name" : "RedMi Airdots",
             "price": "2275",
-            "details": "Generic Xiaomi TWSEJ04LS Redmi Airdots Earphones Bluetooth Sweatproof True Wireless Earbuds Black"
+            "details": "Generic Xiaomi TWSEJ04LS Redmi Airdots Earphones Bluetooth Sweatproof True Wireless Earbuds Black",
             "category": "accessories"
         },
         {
@@ -104,7 +104,7 @@
             "brand": "Generic",
             "name" : "Generic C15 Portable Loud Bluetooth/ USB Speaker",
             "price": "1500",
-            "details": "Wireless streaming, bluetooth streaming, seamless streaming, 10 hour power usage"
+            "details": "Wireless streaming, bluetooth streaming, seamless streaming, 10 hour power usage",
             "category": "accessories"
         },
         {
@@ -113,7 +113,7 @@
             "brand": "Apple",
             "name" : "Apple Airpod pro",
             "price": "27000",
-            "details": "Noise cancellation, transparency, sweat and water proof resistant"
+            "details": "Noise cancellation, transparency, sweat and water proof resistant",
             "category": "accessories"
         },
         {
@@ -122,7 +122,7 @@
             "brand": "Apple",
             "name" : "Airpods Max",
             "price": "45000",
-            "details": "High Fidelity Audio, noise cancelling, battery life upto 20 hours "
+            "details": "High Fidelity Audio, noise cancelling, battery life upto 20 hours ",
             "category": "accessories"
         },
         {
@@ -131,16 +131,16 @@
             "brand": "Sony",
             "name" : "PlayStation 5 console",
              "price": "84,000",
-            "details": "Haptic Technology, Adaptive Triggers,825 GB Storage, Tempest 3D Audio Tech "
+            "details": "Haptic Technology, Adaptive Triggers,825 GB Storage, Tempest 3D Audio Tech ",
             "category": "accessories"
-        }
+        },
         {
             "id": 16,
             "image":"https://gadgetsleo.com/storage/2022/02/Iphone-14-Pro-128-GB-Space-Black.jpg",
             "brand": "iPhone",
             "name": "iPhone i4 pro",
             "price": "159999",
-            "details": "128GB ROM, 6GB RAM, 3200mAh"
+            "details": "128GB ROM, 6GB RAM, 3200mAh",
             "category": "phones"
         },
         {
@@ -149,7 +149,7 @@
             "brand": "Samsung",
             "name": "Samsung Galaxy A33",
             "price": "37000",
-            "details":"128GB ROM, 8GB RAM, 5000mAh"
+            "details":"128GB ROM, 8GB RAM, 5000mAh",
             "category": "phones"
 
         },
@@ -159,7 +159,7 @@
             "brand": "Redmi",
             "name": "Redmi Note 12 pro plus",
             "price": "46800",
-            "details": "256GB ROM, 8GB RAM "
+            "details": "256GB ROM, 8GB RAM ",
             "category": "phones"
 
         },
@@ -169,7 +169,7 @@
             "brand": "Samsung",
             "name": "Samsung Galaxy M33",
             "price": "27999",
-            "details": "128GB ROM, 6GB RAM, 6000mAh"
+            "details": "128GB ROM, 6GB RAM, 6000mAh",
             "category": "phones"
 
         },
@@ -179,7 +179,7 @@
             "brand": "iPhone",
             "name": "iPhone i4 ",
             "price": "133000",
-            "details": "256GB ROM, 6GB RAM, 3200mAh"
+            "details": "256GB ROM, 6GB RAM, 3200mAh",
             "category": "phones"
 
         },
@@ -189,7 +189,7 @@
             "brand": "Samsung",
             "name": "Samsung Galaxy A53",
             "price": "50200",
-            "details":"256GB ROM, 8GB RAM, 5000mAh"
+            "details":"256GB ROM, 8GB RAM, 5000mAh",
             "category": "phones"
 
         },
@@ -199,7 +199,7 @@
             "brand": "Oppo",
             "name": "Oppo A77s",
             "price": "28199",
-            "details": "128GB ROM, 8GB RAM, 5000mAh"
+            "details": "128GB ROM, 8GB RAM, 5000mAh",
             "category": "phones"
 
         },
@@ -209,7 +209,7 @@
             "brand": "Samsung",
             "name": "Samsung Galaxy A23",
             "price": "27999",
-            "details": "128GB ROM, 4GB RAM, 5000mAh"
+            "details": "128GB ROM, 4GB RAM, 5000mAh",
             "category": "phones"
 
         },
@@ -219,17 +219,17 @@
             "brand": "Oppo",
             "name": "Oppo Reno 8T",
             "price": "37800",
-            "details": "256GB ROM, 8GB RAM, 5000mAh"
+            "details": "256GB ROM, 8GB RAM, 5000mAh",
             "category": "phones"
 
         },
         {
-            "id": 25
+            "id": 25,
             "image": "https://gadgetsleo.com/storage/2022/06/Samsung-Galaxy-S23-Plus-1.jpg",
             "brand": "Samsung",
             "name": "Samsung Galaxy S23",
             "price": "129000",
-            "details": "256GB ROM, 8GB RAM, 4700mAh"
+            "details": "256GB ROM, 8GB RAM, 4700mAh",
             "category": "phones"
 
         },
@@ -239,7 +239,7 @@
             "brand": "Samsung",
             "name": "Samsung Galaxy A14",
             "price": "21400",
-            "details": "64GB ROM, 4GB RAM, 5000mAh"
+            "details": "64GB ROM, 4GB RAM, 5000mAh",
             "category": "phones"
 
         },
@@ -249,7 +249,7 @@
             "brand": "Samsung",
             "name": "Samsung Galaxy F23",
             "price": "25499",
-            "details": "128GB ROM, 6GB RAM, 5000mAh"
+            "details": "128GB ROM, 6GB RAM, 5000mAh",
             "category": "phones"
 
         },
@@ -259,7 +259,7 @@
             "brand": "Samsung",
             "name": "Samsung Galaxy A04s",
             "price": "20800",
-            "details": "128GB ROM, 4GB RAM, 5000mAh"
+            "details": "128GB ROM, 4GB RAM, 5000mAh",
             "category": "phones"
             
         },
@@ -269,7 +269,7 @@
             "brand": "OnePlus",
             "name": "OnePlus Nord N20",
             "price": "20699",
-            "details": "64GB ROM, 4GB RAM, 5000mAh"
+            "details": "64GB ROM, 4GB RAM, 5000mAh",
             "category": "phones"
 
         },
@@ -279,17 +279,17 @@
             "brand": "Samsung",
             "name": "Samsung Galaxy M13",
             "price": "23399",
-            "details": "128GB ROM, 6GB RAM, 6000mAh"
+            "details": "128GB ROM, 6GB RAM, 6000mAh",
             "category": "phones"
             
-        }
+        },
         {
         "id": 31,
         "image": "https://noteb.com/res/img/models/3983_2.jpg",
         "brand": "LENOVO",
         "name": "Lenovo Slim 7 Carbon 13 IAP (US)",
         "price": "$1772",
-        "details": "Max. Speed:4.70 GHz, Nr. of cores: 4"
+        "details": "Max. Speed:4.70 GHz, Nr. of cores: 4",
           "category": "laptops"
         },
         {
@@ -298,7 +298,7 @@
           "brand": "LENOVO",
           "name": "Lenovo Yoga 7 14ITL (US)",
           "price": "$1008",
-          "details": "Max. Speed: 4.20 GHz, Nr. of cores: 4"
+          "details": "Max. Speed: 4.20 GHz, Nr. of cores: 4",
           "category": "laptops"
         },
         {
@@ -307,7 +307,7 @@
           "brand": "HP",
           "name": "HP Envy 13t-ba100 (US)",
           "price": "$445",
-          "details": "Max. Speed:4.20 GHz, Nr. of cores: 4"
+          "details": "Max. Speed:4.20 GHz, Nr. of cores: 4",
           "category": "laptops"
         },
         {
@@ -316,7 +316,7 @@
           "brand": "HP",
           "name": "HP Stream 14-cb0 (US)",
           "price": "$191",
-          "details": "Max. Speed:2.60 GHz, Nr. of cores: 2"
+          "details": "Max. Speed:2.60 GHz, Nr. of cores: 2",
           "category": "laptops"
         },
         {
@@ -325,7 +325,7 @@
           "brand": "HP",
           "name": "HP Victus 16t-d0 (US)",
           "price": "$787",
-          "details": "Max. Speed:4.50 GHz, Nr. of cores: 6"
+          "details": "Max. Speed:4.50 GHz, Nr. of cores: 6",
           "category": "laptops"
         },
         {
@@ -334,7 +334,7 @@
           "brand": "HP",
           "name": "HP Omen 16-c00 (US)",
           "price": "$1311",
-          "details": "Max. Speed:4.40 GHz, Nr. of cores: 8"
+          "details": "Max. Speed:4.40 GHz, Nr. of cores: 8",
           "category": "laptops"
         },
         {
@@ -343,7 +343,7 @@
           "brand": "LENOVO",
           "name": "Lenovo Ideapad L340-15 Gaming (US)",
           "price": "$818",
-          "details": "Max. Speed:4.10 GHz, Nr. of cores: 4"
+          "details": "Max. Speed:4.10 GHz, Nr. of cores: 4",
           "category": "laptops"
         },
         {
@@ -352,7 +352,7 @@
           "brand": "DELL",
           "name": "Dell Inspiron 15 3521 (US)",
           "price": "$554",
-          "details": "Max. Speed:2.80 GHz, Nr. of cores: 2"
+          "details": "Max. Speed:2.80 GHz, Nr. of cores: 2",
           "category": "laptops"
         },
         {
@@ -361,7 +361,7 @@
           "brand": "DELL",
           "name": "Dell Latitude 15 3520 (US)",
           "price": "$794",
-          "details": "Max. Speed:4.80 GHz, Nr. of cores: 4"
+          "details": "Max. Speed:4.80 GHz, Nr. of cores: 4",
           "category": "laptops"
         },
         {
@@ -370,7 +370,7 @@
           "brand": "DELL",
           "name": "Dell Latitude 14 7430 2-in-1 (US)",
           "price": "$909",
-          "details": "Max. Speed:4.40 GHz, Nr. of cores: 4"
+          "details": "Max. Speed:4.40 GHz, Nr. of cores: 4",
           "category": "laptops"
         },
         {
@@ -379,7 +379,7 @@
           "brand": "HP",
           "name": "HP Chromebook 11 G8 EE (US)",
           "price": "$",
-          "details": "Max. Speed:2.80 GHz, Nr. of cores: 2"
+          "details": "Max. Speed:2.80 GHz, Nr. of cores: 2",
           "category": "laptops"
         },
         {
@@ -388,7 +388,7 @@
           "brand": "APPLE",
           "name": "Apple MacBook Pro 13 M2 2022 (US)",
           "price": "$1311",
-          "details": "Max. Speed:3.50 GHz, Nr. of cores: 8"
+          "details": "Max. Speed:3.50 GHz, Nr. of cores: 8",
           "category": "laptops"
         },
         {
@@ -397,7 +397,7 @@
           "brand": "APPLE",
           "name": "Apple MacBook Pro 16 2021 (US)",
           "price": "$1623",
-          "details": "Max. Speed:3.20 GHz, Nr. of cores: 10"
+          "details": "Max. Speed:3.20 GHz, Nr. of cores: 10",
           "category": "laptops"
         },
         {
@@ -406,7 +406,7 @@
           "brand": "SAMSUNG",
           "name": "Samsung Galaxy Book 2 Business14 (US)",
           "price": "$1432",
-          "details": "Max. Speed:4.40 GHz, Nr. of cores: 4"
+          "details": "Max. Speed:4.40 GHz, Nr. of cores: 4",
           "category": "laptops"
         },
         {
@@ -415,7 +415,7 @@
           "brand": "SAMSUNG",
           "name": "Samsung Chromebook Galaxy (US)",
           "price": "$1000",
-          "details": "Max. Speed:4.20 GHz, Nr. of cores: 4"
+          "details": "Max. Speed:4.20 GHz, Nr. of cores: 4",
           "category": "laptops"
         }
 
