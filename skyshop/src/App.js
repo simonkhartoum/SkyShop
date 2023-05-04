@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+
+import React from 'react';
 import './App.css';
 import sam from './sam.png';
 import apl from './apl.png';
@@ -8,6 +9,7 @@ import oraimo from './oraimo.png';
 import Footer from './components/Footer'; 
 import Navbar from './components/Navbar';
 import FeaturedProducts from './components/FeaturedProducts';
+
 
 
 const ImageStyle= { 

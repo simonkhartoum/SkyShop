@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import '../App.css';
-
 function Navbar(props) {
+function Navbar() {
+
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
@@ -24,6 +25,9 @@ function Navbar(props) {
         <div className="links">
           <a href="skyshop" style={{color:"rgb(13, 226, 155)"}}>SkyShop</a>
           <a href="products" onClick={handleProductsClick}>Products</a>
+          <a href="phones">Phones</a>
+          <a href="laptops">Laptops</a>
+          <a href="accessories">Accessories</a>
         </div>
       </div>
       <div className="rightSide">
@@ -40,3 +44,4 @@ function Navbar(props) {
 }
 
 export default Navbar;
+
