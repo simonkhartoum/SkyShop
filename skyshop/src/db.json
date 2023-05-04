@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+    "id": 1,
+    "image": "https://noteb.com/res/img/models/3983_2.jpg",
+    "brand": "LENOVO",
+    "name": "Lenovo Slim 7 Carbon 13 IAP (US)",
+    "price": "$1772",
+    "details": "Max. Speed:4.70 GHz, Nr. of cores: 4"
+    },
+    {
+      "id": 2,
+      "image": "https://noteb.com/res/img/models/3041_1.jpg",
+      "brand": "LENOVO",
+      "name": "Lenovo Yoga 7 14ITL (US)",
+      "price": "$1008",
+      "details": "Max. Speed: 4.20 GHz, Nr. of cores: 4"
+    },
+    {
+      "id": 3,
+      "image": "https://noteb.com/res/img/models/2667_1.jpg",
+      "brand": "HP",
+      "name": "HP Envy 13t-ba100 (US)",
+      "price": "$445",
+      "details": "Max. Speed:4.20 GHz, Nr. of cores: 4"
+    },
+    {
+      "id": 4,
+      "image": "https://noteb.com/res/img/models/1552_2.jpg",
+      "brand": "HP",
+      "name": "HP Stream 14-cb0 (US)",
+      "price": "$191",
+      "details": "Max. Speed:2.60 GHz, Nr. of cores: 2"
+    },
+    {
+      "id": 5,
+      "image": "https://noteb.com/res/img/models/3512_2.jpg",
+      "brand": "HP",
+      "name": "HP Victus 16t-d0 (US)",
+      "price": "$787",
+      "details": "Max. Speed:4.50 GHz, Nr. of cores: 6"
+    },
+    {
+      "id": 6,
+      "image": "https://noteb.com/res/img/models/3623_2.jpg",
+      "brand": "HP",
+      "name": "HP Omen 16-c00 (US)",
+      "price": "$1311",
+      "details": "Max. Speed:4.40 GHz, Nr. of cores: 8"
+    },
+    {
+      "id": 7,
+      "image": "https://noteb.com/res/img/models/1977_1.jpg",
+      "brand": "LENOVO",
+      "name": "Lenovo Ideapad L340-15 Gaming (US)",
+      "price": "$818",
+      "details": "Max. Speed:4.10 GHz, Nr. of cores: 4"
+    },
+    {
+      "id": 8,
+      "image": "https://noteb.com/res/img/models/4116_2.jpg",
+      "brand": "DELL",
+      "name": "Dell Inspiron 15 3521 (US)",
+      "price": "$554",
+      "details": "Max. Speed:2.80 GHz, Nr. of cores: 2"
+    },
+    {
+      "id": 9,
+      "image": "https://noteb.com/res/img/models/3435_1.jpg",
+      "brand": "DELL",
+      "name": "Dell Latitude 15 3520 (US)",
+      "price": "$794",
+      "details": "Max. Speed:4.80 GHz, Nr. of cores: 4"
+    },
+    {
+      "id": 10,
+      "image": "https://noteb.com/res/img/models/3943_2.jpg",
+      "brand": "DELL",
+      "name": "Dell Latitude 14 7430 2-in-1 (US)",
+      "price": "$909",
+      "details": "Max. Speed:4.40 GHz, Nr. of cores: 4"
+    },
+    {
+      "id": 11,
+      "image": "https://noteb.com/res/img/models/2702_1.jpg",
+      "brand": "HP",
+      "name": "HP Chromebook 11 G8 EE (US)",
+      "price": "$",
+      "details": "Max. Speed:2.80 GHz, Nr. of cores: 2"
+    },
+    {
+      "id": 12,
+      "image": "https://noteb.com/res/img/models/3120_2.jpg",
+      "brand": "APPLE",
+      "name": "Apple MacBook Pro 13 M2 2022 (US)",
+      "price": "$1311",
+      "details": "Max. Speed:3.50 GHz, Nr. of cores: 8"
+    },
+    {
+      "id": 13,
+      "image": "https://noteb.com/res/img/models/3737_1.jpg",
+      "brand": "APPLE",
+      "name": "Apple MacBook Pro 16 2021 (US)",
+      "price": "$1623",
+      "details": "Max. Speed:3.20 GHz, Nr. of cores: 10"
+    },
+    {
+      "id": 14,
+      "image": "https://noteb.com/res/img/models/4146_2.jpg",
+      "brand": "SAMSUNG",
+      "name": "Samsung Galaxy Book 2 Business14 (US)",
+      "price": "$1432",
+      "details": "Max. Speed:4.40 GHz, Nr. of cores: 4"
+    },
+    {
+      "id": 15,
+      "image": "https://noteb.com/res/img/models/2404_3.jpg",
+      "brand": "SAMSUNG",
+      "name": "Samsung Chromebook Galaxy (US)",
+      "price": "$1000",
+      "details": "Max. Speed:4.20 GHz, Nr. of cores: 4"
+    }
+
+]
+}
