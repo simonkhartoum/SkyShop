@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import '../App.css';
-
+function Navbar(props) {
 function Navbar() {
+
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
@@ -13,11 +14,17 @@ function Navbar() {
   const navbarClassName = isDarkMode ? 'Navbar DarkMode' : 'Navbar LightMode';
   const searchBoxClassName = isDarkMode ? 'SearchBox DarkMode' : 'SearchBox LightMode';
 
+  const handleProductsClick = (event) => {
+    event.preventDefault();
+    props.onProductsClick();
+  };
+
   return (
     <div className={navbarClassName}>
       <div className="leftSide">
         <div className="links">
           <a href="skyshop" style={{color:"rgb(13, 226, 155)"}}>SkyShop</a>
+          <a href="products" onClick={handleProductsClick}>Products</a>
           <a href="phones">Phones</a>
           <a href="laptops">Laptops</a>
           <a href="accessories">Accessories</a>

@@ -8,6 +8,8 @@ import dell from './dell.png';
 import oraimo from './oraimo.png';
 import Footer from './components/Footer'; 
 import Navbar from './components/Navbar';
+import FeaturedProducts from './components/FeaturedProducts';
+
 
 
 const ImageStyle= { 
@@ -20,10 +22,17 @@ const MageStyle= {
 }
 
 function App() {
+  const [showFeaturedProducts, setShowFeaturedProducts] = useState(false);
+
+  const handleProductsClick = () => {
+    setShowFeaturedProducts(true);
+  };
+
   return (
    <>
     <div className="App">
-       <Navbar/> 
+       <Navbar onProductsClick={handleProductsClick}/> 
+       {showFeaturedProducts && <FeaturedProducts />}
       <header className="App-header">"
         <img src={hp} alt="shop" style={MageStyle}/>
         <img src={apl} alt="shop" style={MageStyle}/>
