@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './App.css';
 import sam from './sam.png';
@@ -5,8 +6,9 @@ import apl from './apl.png';
 import hp from './hp.png';
 import dell from './dell.png';
 import oraimo from './oraimo.png';
-import Footer from './components/Footer';
+import Footer from './components/Footer'; 
 import Navbar from './components/Navbar';
+
 
 const ImageStyle= { 
   padding: "30px",
@@ -17,7 +19,6 @@ const MageStyle= {
   width: "100px",
 }
 
- 
 function App() {
   return (
    <>
@@ -82,4 +83,3 @@ function App() {
 }
 
 export default App;
-

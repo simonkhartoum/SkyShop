@@ -7,6 +7,7 @@
             "name" : "Universal Crossbody Necklace Patch",
             "price": "500",
             "details": "Crossbody Necklace Patch Tether Cell Mobile Phone Case Lanyard"
+            "category": "accessories"
         },
         {
             "id" : 2,
@@ -14,7 +15,8 @@
             "brand": "Variety",
             "name" : "Phone Cover",
             "price": "800",
-            "details": "Phone Cover"  
+            "details": "Phone Cover"
+            "category": "accessories"
         },
         {
             "id" : 3,
@@ -23,6 +25,7 @@
             "name" : "USB Cable type A-C",
             "price": "1000",
             "details": "Quality Authentic USB cables from micro-USB to USB-C"
+            "category": "accessories"
         },
         {
             "id" : 4,
@@ -31,6 +34,7 @@
             "name" : "Bluetooth Portable Speaker",
             "price": "500",
             "details": "Portable Speaker"
+            "category": "accessories"
         },
         {
             "id" : 5,
@@ -39,6 +43,7 @@
             "name" : "Universal Adapter",
             "price": "5000",
             "details": "HDMI adapter"
+            "category": "accessories"
         },
         {
             "id" : 6,
@@ -47,6 +52,7 @@
             "name" : "Power Bank",
             "price": "1345",
             "details": "8-hour battery charge"
+            "category": "accessories"
         },
         {
             "id" : 7,
@@ -55,6 +61,7 @@
             "name" : "EarPhones",
             "price": "400",
             "details": "Quality Sound Earphones"
+            "category": "accessories"
         },
         {
             "id" : 8,
@@ -63,6 +70,7 @@
             "name" : "Sony MDR-ZX110AP ",
             "price": "6500",
             "details": "Sony MDR-ZX110AP On-Ear Headphones with Microphone (Black)"
+            "category": "accessories"
         },
         {
             "id" : 9,
@@ -71,6 +79,7 @@
             "name" : "Apple Amazfit",
             "price": "3500",
             "details": "Amazfit Bip U Smart Watch (Black)"
+            "category": "accessories"
         },
         {
             "id" : 10,
@@ -79,6 +88,7 @@
             "name" : "RedMi Airdots",
             "price": "2275",
             "details": "Generic Xiaomi TWSEJ04LS Redmi Airdots Earphones Bluetooth Sweatproof True Wireless Earbuds Black"
+            "category": "accessories"
         },
         {
             "id" : 11,
@@ -95,6 +105,7 @@
             "name" : "Generic C15 Portable Loud Bluetooth/ USB Speaker",
             "price": "1500",
             "details": "Wireless streaming, bluetooth streaming, seamless streaming, 10 hour power usage"
+            "category": "accessories"
         },
         {
             "id" : 13,
@@ -103,6 +114,7 @@
             "name" : "Apple Airpod pro",
             "price": "27000",
             "details": "Noise cancellation, transparency, sweat and water proof resistant"
+            "category": "accessories"
         },
         {
             "id" : 14,
@@ -111,6 +123,7 @@
             "name" : "Airpods Max",
             "price": "45000",
             "details": "High Fidelity Audio, noise cancelling, battery life upto 20 hours "
+            "category": "accessories"
         },
         {
             "id" : 15,
@@ -119,6 +132,156 @@
             "name" : "PlayStation 5 console",
              "price": "84,000",
             "details": "Haptic Technology, Adaptive Triggers,825 GB Storage, Tempest 3D Audio Tech "
+            "category": "accessories"
+        }
+        {
+            "id": 16,
+            "image":"https://gadgetsleo.com/storage/2022/02/Iphone-14-Pro-128-GB-Space-Black.jpg",
+            "brand": "iPhone",
+            "name": "iPhone i4 pro",
+            "price": "159999",
+            "details": "128GB ROM, 6GB RAM, 3200mAh"
+            "category": "phones"
+        },
+        {
+            "id": 17,
+            "image":"https://gadgetsleo.com/storage/2022/03/Samsung-Galaxy-A33-5G-Blue.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy A33",
+            "price": "37000",
+            "details":"128GB ROM, 8GB RAM, 5000mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 18,
+            "image": "https://gadgetsleo.com/storage/2022/11/Redmi-Note-12-Pro-Plus-Black.jpg",
+            "brand": "Redmi",
+            "name": "Redmi Note 12 pro plus",
+            "price": "46800",
+            "details": "256GB ROM, 8GB RAM "
+            "category": "phones"
+
+        },
+        {
+            "id": 19,
+            "image": "https://gadgetsleo.com/storage/2022/02/Samsung-Galaxy-M-33-Green.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy M33",
+            "price": "27999",
+            "details": "128GB ROM, 6GB RAM, 6000mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 20,
+            "image": "https://gadgetsleo.com/storage/2022/09/Iphone-14-256GB-Midnight.jpg",
+            "brand": "iPhone",
+            "name": "iPhone i4 ",
+            "price": "133000",
+            "details": "256GB ROM, 6GB RAM, 3200mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 21,
+            "image": "https://gadgetsleo.com/storage/2022/03/Samsung-Galaxy-A53-5G-Black-Color.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy A53",
+            "price": "50200",
+            "details":"256GB ROM, 8GB RAM, 5000mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 22,
+            "image": "https://gadgetsleo.com/storage/2022/09/Oppo-A77s-Ocean-Blue.jpg",
+            "brand": "Oppo",
+            "name": "Oppo A77s",
+            "price": "28199",
+            "details": "128GB ROM, 8GB RAM, 5000mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 23,
+            "image": "https://gadgetsleo.com/storage/2022/03/Samsung-Galaxy-A23-Black-4GB-RAM-128GB.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy A23",
+            "price": "27999",
+            "details": "128GB ROM, 4GB RAM, 5000mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 24,
+            "image": "https://gadgetsleo.com/storage/2023/02/Oppo-Reno-8T-1.jpg",
+            "brand": "Oppo",
+            "name": "Oppo Reno 8T",
+            "price": "37800",
+            "details": "256GB ROM, 8GB RAM, 5000mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 25
+            "image": "https://gadgetsleo.com/storage/2022/06/Samsung-Galaxy-S23-Plus-1.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy S23",
+            "price": "129000",
+            "details": "256GB ROM, 8GB RAM, 4700mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 26,
+            "image": "https://gadgetsleo.com/storage/2023/03/Samsung-Galaxy-A14-1.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy A14",
+            "price": "21400",
+            "details": "64GB ROM, 4GB RAM, 5000mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 27,
+            "image": "https://gadgetsleo.com/storage/2022/03/Samsung-Galaxy-F23-5G-Aqua-Blue.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy F23",
+            "price": "25499",
+            "details": "128GB ROM, 6GB RAM, 5000mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 28,
+            "image": "https://gadgetsleo.com/storage/2021/03/Samsung-Galaxy-A32.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy A04s",
+            "price": "20800",
+            "details": "128GB ROM, 4GB RAM, 5000mAh"
+            "category": "phones"
+            
+        },
+        {
+            "id": 29,
+            "image": "https://gadgetsleo.com/storage/2022/09/OnePlus-Nord-N20-SE-Blue-Oasis.jpg",
+            "brand": "OnePlus",
+            "name": "OnePlus Nord N20",
+            "price": "20699",
+            "details": "64GB ROM, 4GB RAM, 5000mAh"
+            "category": "phones"
+
+        },
+        {
+            "id": 30,
+            "image": "https://gadgetsleo.com/storage/2022/02/Samsung-Galaxy-M13-1.jpg",
+            "brand": "Samsung",
+            "name": "Samsung Galaxy M13",
+            "price": "23399",
+            "details": "128GB ROM, 6GB RAM, 6000mAh"
+            "category": "phones"
+            
         }
     ]
 }
