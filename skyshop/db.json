@@ -1,0 +1,139 @@
+{
+    "products" : [
+        {
+            "id" : 1,
+            "image": "https://s.alicdn.com/@sc04/kf/H80bd90fe5e1345c79562d619331b914bP.jpg_300x300.jpg",
+            "brand": "Lasso",
+            "name" : "Universal Crossbody Necklace Patch",
+            "model": "2023 Sport Lanyard",
+            "price": "500",
+            "details": "Crossbody Necklace Patch Tether Cell Mobile Phone Case Lanyard"
+        },
+        {
+            "id" : 2,
+            "image": "https://images.unsplash.com/photo-1593055454503-531d165c2ed8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGhvbmUlMjBhY2Nlc3Nvcmllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+            "brand": "Variety",
+            "name" : "Phone Cover",
+            "model": "Graphic phone cover",
+            "price": "800",
+            "details": "Phone Cover"  
+        },
+        {
+            "id" : 3,
+            "image": "https://media.istockphoto.com/id/656260816/photo/white-charging-cable-for-modern-smartphone-isolated-on-white.jpg?s=612x612&w=0&k=20&c=BwaIIejwC_qL8YZt2REc8mQRA52pgdkbw21EW3xnWX0=",
+            "brand": "Araimo",
+            "name" : "USB Cable type A-C",
+            "model": "2020- 2023",
+            "price": "1000",
+            "details": "Quality Authentic USB cables from micro-USB to USB-C"
+        },
+        {
+            "id" : 4,
+            "image": "https://media.istockphoto.com/id/1199427977/photo/portable-wireless-bluetooth-dj-speaker-isolated-on-white-side-view-of-black-stereo-sound.jpg?s=612x612&w=0&k=20&c=iNWt0Bg_p2UlBWnoyKHgjo8htXGXCBZQnYhC1-0lY4o=",
+            "brand": "Tchup",
+            "name" : "Bluetooth Portable Speaker",
+            "model": "GQ-540",
+            "price": "500",
+            "details": "Portable Speaker"
+        },
+        {
+            "id" : 5,
+            "image": "https://dnsl.co.ke/wp-content/uploads/2022/11/UG-40850-300x300.png",
+            "brand": "UGREEN",
+            "name" : "Universal Adapter",
+            "model": "SZA-ctrl",
+            "price": "5000",
+            "details": "HDMI adapter"
+        },
+        {
+            "id" : 6,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvJwbRTAwvPgZNtw05WnCh8ER92IRZxQCdw&usqp=CAU",
+            "brand": "Amsung",
+            "name" : "Power Bank",
+            "model": "354-jy",
+            "price": "1345",
+            "details": "8-hour battery charge"
+        },
+        {
+            "id" : 7,
+            "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcToIntM_o5IPplVjvPezi4Xo9uSkloBbzIMfHqqVJRhm5GTNzhKafD0E9QWvU2X4DBfM2HQh79yiXHh3fCYbOqnsjpUt5kr_CjLKC-zbvr-g8P5u7U5oJJg_A&usqp=CAc",
+            "brand": "BlackBerry",
+            "name" : "EarPhones",
+            "model": "2022 Model",
+            "price": "400",
+            "details": "Quality Sound Earphones"
+        },
+        {
+            "id" : 8,
+            "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTRhlL-JSjAIyi7gV9YhsVtMR8eL3WpW2GxBzGa-Y3bvO26EcStJEscaKdhlGp2L1aVu_lRKVhWkoElhEnK-fBtEdiB1MVEmgVP_gNAu3XOes_iDLafmxBX&usqp=CAc",
+            "brand": "Sony",
+            "name" : "Sony MDR-ZX110AP ",
+            "model": "MDR-ZX110AP",
+            "price": "6500",
+            "details": "Sony MDR-ZX110AP On-Ear Headphones with Microphone (Black)"
+        },
+        {
+            "id" : 9,
+            "image": "https://www.camerasafrica.com/wp-content/uploads/2022/03/Amazfit-Bip-U-bb-416x416.jpg",
+            "brand": "Apple",
+            "name" : "Apple Amazfit",
+            "model": "Bip U",
+            "price": "3500",
+            "details": "Amazfit Bip U Smart Watch (Black)"
+        },
+        {
+            "id" : 10,
+            "image": "https://www.saruk.co.ke/images/14101618900647.jpg",
+            "brand": "Xiaomi",
+            "name" : "RedMi Airdots",
+            "model": "TWEJO4LS",
+            "price": "2275",
+            "details": "Generic Xiaomi TWSEJ04LS Redmi Airdots Earphones Bluetooth Sweatproof True Wireless Earbuds Black"
+        },
+        {
+            "id" : 11,
+            "image": "https://images.unsplash.com/photo-1594075410664-00e61ae442dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c29ueSUyMGhlYWRwaG9uZXN8ZW58MHx8MHx8&w=1000&q=80",
+            "brand": "Sony",
+            "name" : "Sony MDR-7506 Headphones",
+            "model": "Sony MDR 7506",
+            "price": "17000",
+            "details": "40mm Neodymium Drivers,Closed Design, Swiveling Earcups,Single-Sided CableCoiled Cable, Soft Case"
+        },
+        {
+            "id" : 12,
+            "image": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/95/5116511/1.jpg?6265",
+            "brand": "Generic",
+            "name" : "Generic C15 Portable Loud Bluetooth/ USB Speaker",
+            "model": "Loud Speaker",
+            "price": "1500",
+            "details": "Wireless streaming, bluetooth streaming, seamless streaming, 10 hour power usage"
+        },
+        {
+            "id" : 13,
+            "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQr7yP50qhKjCqKY9fezA9PhLeBuQd41W2sRndsGPE9wY3seiBEKtw3Ij2LOdfxMaJ5LGxJr5lCx4W_mmSAOFsbRwTbzCJvFnKbW2zigOFMHobgQUYaC6RLcw&usqp=CAc",
+            "brand": "Apple",
+            "name" : "Apple Airpod pro",
+            "model": "pro",
+            "price": "27000",
+            "details": "Noise cancellation, transparency, sweat and water proof resistant"
+        },
+        {
+            "id" : 14,
+            "image": "https://media.currys.biz/i/currysprod/M10207224_black?$g-small$&fmt=auto",
+            "brand": "Apple",
+            "name" : "Airpods Max",
+            "model": "2022",
+            "price": "45000",
+            "details": "High Fidelity Audio, noise cancelling, battery life upto 20 hours "
+        },
+        {
+            "id" : 15,
+            "image": "https://mtech.co.ke/media/cache/2e/7d/2e7daa8e4d4aaf7fe4849c151a7c6bb3@2x.jpg",
+            "brand": "Sony",
+            "name" : "PlayStation 5 console",
+            "model": "Model 5",
+            "price": "84,000",
+            "details": "Haptic Technology, Adaptive Triggers,825 GB Storage, Tempest 3D Audio Tech "
+        }
+    ]
+}
