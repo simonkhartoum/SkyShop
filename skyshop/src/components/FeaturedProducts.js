@@ -6,7 +6,7 @@ const FeaturedProducts = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('http://localhost:3000/products');
+        const response = await fetch(' http://localhost:8000/products');
         const data = await response.json();
         setProducts(data);
       } catch (error) {

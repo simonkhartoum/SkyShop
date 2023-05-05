@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import '../App.css';
+import Search from './Search';
+
 function Navbar(props) {
-function Navbar() {
 
   const [isDarkMode, setIsDarkMode] = useState(false);
+  
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
@@ -31,10 +33,12 @@ function Navbar() {
         </div>
       </div>
       <div className="rightSide">
-        <div className={searchBoxClassName}>
+        {/* <div className={searchBoxClassName}>
           <input type="text" placeholder="Search..." />
+          
           <button>Search</button>
-        </div>
+        </div> */}
+        < Search />
         <button onClick={toggleDarkMode}>{isDarkMode ? 'Light Mode' : 'Dark Mode'}</button>
         <a href="admin">Admin</a>
         <a href="add to cart">Add To Cart</a>
