@@ -5,7 +5,7 @@ function Footer() {
   return (
   
     <div className='Box'>
-      <h1 style={{ color: "green", 
+      <h1 style={{ color: "rgb(15, 226, 155)", 
                    textAlign: "center", 
                    marginTop: "-50px",
                    fontSize:"28px" }}>
@@ -15,48 +15,48 @@ function Footer() {
         <div className='Row'>
           <div className='column'>
             < heading className="heading">COMPANY</ heading >
-            <a href="#">About Us</a>
-            <a href="#">Sell with SkyShop</a>
-            <a href="#">Sky.Shop Blog</a>
-            <a href="#">Track Your Orders</a>
+            <p>About Us</p>
+            <p>Sell with SkyShop</p>
+            <p>Sky.Shop Blog</p>
+            <p>Track Your Orders</p>
           </div>
           <div className='column'>
             < heading className="heading">Contact Us</ heading >
-            <a href="#">FAQ center</a>
-            <a href="#">hello@SkyShop</a>
-            <a href="#">1st Floor Adams Arcade</a>
+            <p>FAQ center</p>
+            <p>hello@SkyShop</p>
+            <p>1st Floor Adams Arcade</p>
             
           </div>
           <div className='column'>
             < heading className="heading">Shopping is Easy</ heading >
-            <a href="#">Same day delivery</a>
-            <a href="#">Payment online or on delivery</a>
-            <a href="#">Free Returns</a>
+            <p>Same day delivery</p>
+            <p>Payment online or on delivery</p>
+            <p>Free Returns</p>
             
           </div>
           <div className='column'>
             < heading className="heading">Follow Us</ heading >
-            <a href="#">
+            <p>
               <i className="fab fa-facebook-f">
                 <span style={{ marginLeft: "10px" }}>
                   Facebook
                 </span>
               </i>
-            </a>
-            <a href="#">
+            </p>
+            <p>
               <i className="fab fa-instagram">
                 <span style={{ marginLeft: "10px" }}>
                   Instagram
                 </span>
               </i>
-            </a>
-            <a href="#">
+            </p>
+            <p>
               <i className="fab fa-twitter">
                 <span style={{ marginLeft: "10px" }}>
                   Twitter
                 </span>
               </i>
-            </a>
+            </p>
             
           </div>
         </div>
@@ -67,4 +67,6 @@ function Footer() {
 }
 
 export default Footer;
+
+
 
