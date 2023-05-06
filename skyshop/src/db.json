@@ -1,4 +1,4 @@
-  {
+{
   "products": [
     {
       "id": 1,
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "image": "https://beebom.com/wp-content/uploads/2019/08/anker.jpg",
-      "brand": "Samsung",
+      "brand": "Amsung",
       "name": "Power Bank",
       "price": "1345",
       "details": "8-hour battery charge",
