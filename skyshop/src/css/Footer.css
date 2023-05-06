@@ -1,5 +1,5 @@
 .Box {
-     padding: 50px  0px;
+    padding: 50px  0px;
     background-image: linear-gradient(rgb(101, 95, 95), black);
      bottom: 0px; 
      width: 100%;
@@ -15,6 +15,7 @@
      flex-direction: column;
      justify-content: center;
      max-width: 1000px;
+
      margin: auto;
  }
  .column {
@@ -38,7 +39,9 @@
      color: white;
      margin-bottom: 40px;
      font-weight: bold;
+
  }
  .Box p{
     color: aliceblue;
+
  } 
