@@ -1,12 +1,16 @@
-import React from 'react';
+
 import './App.css';
 import sam from './sam.png';
 import apl from './apl.png';
 import hp from './hp.png';
 import dell from './dell.png';
 import oraimo from './oraimo.png';
-import Footer from './components/Footer';
+import Footer from './components/Footer'; 
 import Navbar from './components/Navbar';
+import FormTable from './components/Admin';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import FeaturedProducts from './components/FeaturedProducts';
+
 
 const ImageStyle= { 
   padding: "30px",
@@ -17,13 +21,21 @@ const MageStyle= {
   width: "100px",
 }
 
- 
 function App() {
+
   return (
    <>
     <div className="App">
-       <Navbar/> 
-      <header className="App-header">"
+       <Navbar/>
+       <BrowserRouter>
+       <Routes>
+
+        <Route path='Admin' element={<FormTable/>}> </Route>
+        <Route path='products' element={<FeaturedProducts/>}> </Route>
+       </Routes>
+       </BrowserRouter>
+       
+      <header className="App-header">
         <img src={hp} alt="shop" style={MageStyle}/>
         <img src={apl} alt="shop" style={MageStyle}/>
         <img src={sam} alt="shop" style={ImageStyle}/>
@@ -40,7 +52,7 @@ function App() {
           <div className='pcard'>
               <div className='card___content'>
                 <p>
-                <mark>SkyShop is a Kenyan-owned and operated online retail site.</mark> 
+                <p>SkyShop is a Kenyan-owned and operated online retail site.</p>
                 <p>We endeavor to make online shopping simple and convenient.</p>
                 Within Nairobi, delivery takes 24 hours, while outside Nairobi, delivery takes 2-3 days. 
                 <p> In Nairobi, payment on delivery is accepted.</p>
@@ -77,7 +89,9 @@ function App() {
           </div>
        </div>  
        <Footer/>
+       
     </>
+
   );
 }
 
