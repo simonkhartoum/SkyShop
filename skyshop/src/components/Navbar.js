@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import '../App.css';
 import Search from './Search';
+import { Navigate } from 'react-router-dom';
 
 function Navbar(props) {
 
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [searchTerm, setSearchTerm] = useState('');
+  const inputRef = useRef();
   
 
   const toggleDarkMode = () => {
@@ -20,6 +23,18 @@ function Navbar(props) {
     event.preventDefault();
     props.onProductsClick();
   };
+
+  const handleSearch = (event) => {event.preventDefault();
+  if(searchTerm.length && props.history){
+    props.history.push(`/search${searchTerm}`)
+  }else {
+    inputRef.current.focus();
+  }};
+
+  // const handleSearch = (event) => {event.preventDefault();
+  // if(searchTerm) {
+  //   Navigate(`/search/${searchTerm}`)
+  // } else {inputRef.current.focus();}};
 
   return (
     <div className={navbarClassName}>
@@ -39,6 +54,12 @@ function Navbar(props) {
           <button>Search</button>
         </div> */}
         < Search />
+        <div>
+          <form onSubmit={handleSearch}>
+             <input ref={inputRef} type="text" placeholder='Search...' value={searchTerm}
+             onChange= {(e) => setSearchTerm(e.target.value)}/>
+          </form>
+        </div>
         <button onClick={toggleDarkMode}>{isDarkMode ? 'Light Mode' : 'Dark Mode'}</button>
         <a href="admin">Admin</a>
         <a href="add to cart">Add To Cart</a>

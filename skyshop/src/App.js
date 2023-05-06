@@ -9,7 +9,7 @@ import oraimo from './oraimo.png';
 import Footer from './components/Footer'; 
 import Navbar from './components/Navbar';
 import FeaturedProducts from './components/FeaturedProducts';
-
+import AddToCart from './components/AddToCart';
 
 
 const ImageStyle= { 
@@ -31,8 +31,10 @@ function App() {
   return (
    <>
     <div className="App">
+      
        <Navbar onProductsClick={handleProductsClick}/> 
        {showFeaturedProducts && <FeaturedProducts />}
+       
       <header className="App-header">"
         <img src={hp} alt="shop" style={MageStyle}/>
         <img src={apl} alt="shop" style={MageStyle}/>
@@ -86,6 +88,7 @@ function App() {
               </div>
           </div>
        </div>  
+       <AddToCart />
        <Footer/>
     </>
   );

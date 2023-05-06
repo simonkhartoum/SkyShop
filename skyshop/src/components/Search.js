@@ -1,32 +1,33 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
+import { useParams } from 'react-router-dom';
+import FeaturedProducts from './FeaturedProducts';
 
-function Search(handleSearch) {
-    const [inputValue, setInputValue] = useState("")
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setInputValue('');
+const Search = () => {
+    const {name} = useParams();
+    const [searchedData, setSearchedData] = useState([]);
     
-        const response = await fetch('http://localhost:8000/products');
-        const data = await response.json();
-    
-        handleSearch(data.products);
-    
-        const productName = data.products[0].name;
-        console.log(productName);
-      };
-  return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Search"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-        />
-        <button type="submit">Search</button>
-      </form>
-    </div>
-  )
+
+    const fetchData =() => {
+        fetch('http://localhost:8000/products?name=${searchedData}')
+        .then((res) => res.json())
+        .then((data) => {
+            console.log(data)
+            setSearchedData(data.results);
+        })
+    };
+    useEffect(()  => {
+        fetchData();
+    },[name]);
+    return (
+        <div>
+            {/* <h3> {`"${name}"`}</h3> */}
+            <div>{ searchedData && searchedData.map((data) => (
+                <FeaturedProducts
+                key={data.id}
+                products={data}/>
+            ))}</div>
+        </div>
+    )
 }
 
 export default Search
