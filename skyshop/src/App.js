@@ -1,41 +1,48 @@
-
-import React, {useState} from 'react';
 import './App.css';
 import sam from './sam.png';
 import apl from './apl.png';
 import hp from './hp.png';
 import dell from './dell.png';
 import oraimo from './oraimo.png';
-import Footer from './components/Footer'; 
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import FormTable from './components/Admin';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import FeaturedProducts from './components/FeaturedProducts';
 import AddToCart from './components/AddToCart';
+// import Search from './components/Search';
+import { useEffect } from 'react';
 
-
-const ImageStyle= { 
+const ImageStyle= {
   padding: "30px",
   width: "160px",
 }
-const MageStyle= { 
+const MageStyle= {
   padding: "30px",
   width: "100px",
 }
-
 function App() {
-  const [showFeaturedProducts, setShowFeaturedProducts] = useState(false);
+  // const [products, setProducts] = useState ([]);
+  
 
-  const handleProductsClick = () => {
-    setShowFeaturedProducts(true);
-  };
-
+  // useEffect(() => {
+  //   fetch("http://localhost:8000/products")
+  //   .then((res) => res.json())
+  //   .then((data) => setProducts(data))
+  // }, []);
   return (
    <>
     <div className="App">
-      
-       <Navbar onProductsClick={handleProductsClick}/> 
-       {showFeaturedProducts && <FeaturedProducts />}
-       
-      <header className="App-header">"
+       <Navbar />
+       <BrowserRouter>
+       <Routes>
+        {/* <Route path='Search' element={<Search/>}></Route> */}
+        <Route path='Admin' element={<FormTable/>}> </Route>
+        <Route path='products' element={<FeaturedProducts/>}> </Route>
+        <Route path='Cart' element={<AddToCart/>}> </Route>
+       </Routes>
+       </BrowserRouter>
+      <header className="App-header">
         <img src={hp} alt="shop" style={MageStyle}/>
         <img src={apl} alt="shop" style={MageStyle}/>
         <img src={sam} alt="shop" style={ImageStyle}/>
@@ -44,21 +51,18 @@ function App() {
         <img src="https://skygarden.azureedge.net/media/original_images/Hotpoint_2.png" alt="shop" style={ImageStyle}/>
         <img src="https://skygarden.azureedge.net/media/original_images/lg_1.png" alt="shop" style={ImageStyle}/>
         <img src={oraimo} alt="shop" style={ImageStyle}/>
-
       </header>
     </div>
-
       <div className='pcards'>
           <div className='pcard'>
               <div className='card___content'>
                 <p>
-                <mark>SkyShop is a Kenyan-owned and operated online retail site.</mark> 
+                <p>SkyShop is a Kenyan-owned and operated online retail site.</p>
                 <p>We endeavor to make online shopping simple and convenient.</p>
-                Within Nairobi, delivery takes 24 hours, while outside Nairobi, delivery takes 2-3 days. 
+                Within Nairobi, delivery takes 24 hours, while outside Nairobi, delivery takes 2-3 days.
                 <p> In Nairobi, payment on delivery is accepted.</p>
                 <p>Payments are safe convenient for everyone </p>
                 </p>
-            
               </div>
           </div>
           <div className='pcard'>
@@ -71,27 +75,24 @@ function App() {
              <p></p>
              <p></p>
               </div>
-
           </div>
           <div className='pcard'>
               <div className='card___content'>
                 <p>
-                Shop for Televisions, Home Theater Speakers, 
+                Shop for Televisions, Home Theater Speakers,
                 and Audio from brands like Samsung, Haier, LG, Vision Plus, Sony, and more on SkyShop.
                 </p>
                 <p>
-                Get high-quality Fridges, Cookers, Air fryers, 
+                Get high-quality Fridges, Cookers, Air fryers,
                 Washing machines and so much more that come with a warranty.
                 </p>
                 <p>All these on your number one online shop THE SkyShop</p>
                 <header style={{fontSize: "40px"}}>Lets fly</header>
               </div>
           </div>
-       </div>  
-       <AddToCart />
+       </div>
        <Footer/>
     </>
   );
 }
-
 export default App;

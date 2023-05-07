@@ -1,13 +1,12 @@
 import React, { useRef, useState } from 'react';
 import '../App.css';
 import Search from './Search';
+
 import { Navigate } from 'react-router-dom';
 
-function Navbar(props) {
-
+function Navbar({props, products, setFilteredProducts}) {
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [searchTerm, setSearchTerm] = useState('');
-  const inputRef = useRef();
+  // const [searchQuery, setSearchQuery] = useState("");
   
 
   const toggleDarkMode = () => {
@@ -19,54 +18,51 @@ function Navbar(props) {
   const navbarClassName = isDarkMode ? 'Navbar DarkMode' : 'Navbar LightMode';
   const searchBoxClassName = isDarkMode ? 'SearchBox DarkMode' : 'SearchBox LightMode';
 
+
   const handleProductsClick = (event) => {
     event.preventDefault();
     props.onProductsClick();
   };
+ 
+  // const handleSearchQueryChange = (event) => {
+  //   setSearchQuery(event.target.value);
+  // };
 
-  const handleSearch = (event) => {event.preventDefault();
-  if(searchTerm.length && props.history){
-    props.history.push(`/search${searchTerm}`)
-  }else {
-    inputRef.current.focus();
-  }};
+  // const handleSearchButtonClick = () => {
+  //   const filtered = products.filter(products =>
+  //     products.category.toLowerCase() === searchQuery.toLowerCase());
+  //     setFilteredProducts(filtered);
+  // }
+ 
 
-  // const handleSearch = (event) => {event.preventDefault();
-  // if(searchTerm) {
-  //   Navigate(`/search/${searchTerm}`)
-  // } else {inputRef.current.focus();}};
+
 
   return (
     <div className={navbarClassName}>
       <div className="leftSide">
         <div className="links">
           <a href="skyshop" style={{color:"rgb(13, 226, 155)"}}>SkyShop</a>
-          <a href="products" onClick={handleProductsClick}>Products</a>
-          <a href="phones">Phones</a>
-          <a href="laptops">Laptops</a>
-          <a href="accessories">Accessories</a>
+          <a href="products">Products</a>
         </div>
       </div>
       <div className="rightSide">
         {/* <div className={searchBoxClassName}>
-          <input type="text" placeholder="Search..." />
-          
-          <button>Search</button>
+          <input 
+          type="text" 
+          value={searchQuery}
+          onChange={handleSearchQueryChange}
+          placeholder="Search..."
+           />
+          <button onClick={handleSearchButtonClick}>Search</button>
         </div> */}
-        < Search />
-        <div>
-          <form onSubmit={handleSearch}>
-             <input ref={inputRef} type="text" placeholder='Search...' value={searchTerm}
-             onChange= {(e) => setSearchTerm(e.target.value)}/>
-          </form>
-        </div>
-        <button onClick={toggleDarkMode}>{isDarkMode ? 'Light Mode' : 'Dark Mode'}</button>
-        <a href="admin">Admin</a>
-        <a href="add to cart">Add To Cart</a>
+        
+        <Search />
+        <a href="admin" style={{color:"rgb(15, 226, 155"}} >Admin</a>
+        <a href="cart">Cart</a>
+        <button style={{backgroundColor:"rgb(15, 226, 155)",color:"black"}}  onClick={toggleDarkMode}>{isDarkMode ? 'Light Mode' : 'Dark Mode'}</button>
       </div>
     </div>
   );
 }
 
 export default Navbar;
-

@@ -1,33 +1,33 @@
-import React, {useEffect, useState} from 'react'
-import { useParams } from 'react-router-dom';
-import FeaturedProducts from './FeaturedProducts';
+import React, {useState} from 'react'
 
-const Search = () => {
-    const {name} = useParams();
-    const [searchedData, setSearchedData] = useState([]);
-    
+function Search({handleSearch}) {
+    const [inputValue, setInputValue] = useState("")
+  return (
+    <div>
+        <form onSubmit={async(e) => {
+            e.preventDefault()
+            setInputValue("")
 
-    const fetchData =() => {
-        fetch('http://localhost:8000/products?name=${searchedData}')
-        .then((res) => res.json())
-        .then((data) => {
-            console.log(data)
-            setSearchedData(data.results);
-        })
-    };
-    useEffect(()  => {
-        fetchData();
-    },[name]);
-    return (
-        <div>
-            {/* <h3> {`"${name}"`}</h3> */}
-            <div>{ searchedData && searchedData.map((data) => (
-                <FeaturedProducts
-                key={data.id}
-                products={data}/>
-            ))}</div>
-        </div>
-    )
+            const response = await fetch(`http://localhost:8000/products`)
+            const data = await response.json()
+
+           // handleSearch(data.products)
+
+            const productBrand = data.products[0].brand;
+            console.log(productBrand);
+         }}>
+            <input 
+            type="text"
+            placeholder='Search...'
+            value={inputValue}
+            onChange={(e) => setInputValue(e.target.value)}></input>
+            <button
+            type="submit">Search</button>
+
+        </form>
+      
+    </div>
+  )
 }
 
 export default Search
